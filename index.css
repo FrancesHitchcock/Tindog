@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8f8f8;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    display: block;
+    margin: 0;
+}
+
+/* layout */
+
+.wrapper{
+    width: 95%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+header,
+.icon-container{
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.end-message-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 2em;
+}
+
+header{
+    justify-content: space-between;
+}
+
+.icon-container{
+    justify-content: center;
+    gap: 2em;
+}
+
+.header-icon{
+    width: 34px;
+    height: 34px;
+}
+
+.logo{
+    height: 42px;
+}
+
+.main-icon-container{
+    width: 10vw;
+    height: 10vw;
+    max-width: 70px;
+    max-height: 70px;
+    min-width: 60px;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px #b7b7b7;
+}
+
+.heart-icon-container:hover{
+    background-color: #dbfff4;
+}
+
+.cross-icon-container:hover{
+    background-color: #ffe7ef;
+}
+
+.main-icon{
+    width: 50%;
+}
+
+.dog-container{
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
+}
+
+.dog-image{
+    width: 100%;
+    grid-row: 1;
+    grid-column: 1 / -1;
+    border-radius: 10px;
+}
+
+.dog-info-container{
+    grid-row: 1;
+    grid-column: 2;
+    color: white;
+    align-self: end;
+}
+
+.like-status{
+    grid-row: 1;
+    grid-column: 2;
+    align-self: start;
+    width: 50%;
+    margin-top: 3em;
+}
+
+.like-status-image{
+    width: 100%;
+    transform: rotate(-30deg)
+}
+
+/* typography */
+
+h2, h4{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #b7b7b7;
+    margin-top: .25em;
+}
+
+.liked-dogs{
+    color: #555;
+    font-style: italic;
+}
+
+@media (max-width: 400px){
+    h3{
+        font-size: 6vw;
+    }
+}
+
