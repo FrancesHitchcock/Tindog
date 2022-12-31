@@ -16,3 +16,7 @@ Other techniques employed in creating the site include:
 - creating an array of 'liked' dogs and using a for loop to display them in a list using conventional English syntax using commas and 'and' appropriately
 
 Frances Hitchcock, 18 December 2022
+
+Index.css file updated on 30 December to add aspect-ratio property to .dog-container. This was done to improve the user experience, and as a Scrimba Module 8 exercise to practise branching and pull requests.
+
+Frances Hitchcock, 31 December 2022
